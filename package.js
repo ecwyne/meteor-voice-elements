@@ -5,6 +5,10 @@ Package.describe({
 	name: 'ecwyne:voice-elements'
 });
 
+Npm.depends({
+	bower: '1.3.10'
+});
+
 Package.onUse(function(api) {
 	api.use('underscore');
 	api.use('ecwyne:polymer@1.0.1')

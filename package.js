@@ -1,7 +1,7 @@
 Package.describe({
 	summary: "Web Speach API for Meteor!",
 	version: "1.0.0",
-	git: "http://github.com/ecwyne/meteor-voice-elements",
+	git: "http://github.com/ecwyne/meteor-voice-elements.git",
 	name: 'ecwyne:voice-elements'
 });
 

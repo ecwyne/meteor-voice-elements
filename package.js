@@ -9,5 +9,5 @@ Package.onUse(function(api) {
 	api.use('underscore');
 	api.use('ecwyne:polymer@1.0.1')
 	api.versionsFrom('METEOR@0.9.0');
-	api.addFiles('voice-elements.js', server);
+	api.addFiles('voice-elements.js', 'server');
 });

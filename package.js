@@ -1,6 +1,6 @@
 Package.describe({
 	summary: "Web Speach API for Meteor!",
-	version: "1.0.1",
+	version: "1.0.2",
 	git: "http://github.com/ecwyne/meteor-voice-elements.git",
 	name: 'ecwyne:voice-elements'
 });
@@ -11,7 +11,7 @@ Npm.depends({
 
 Package.onUse(function(api) {
 	api.use('underscore');
-	api.use('ecwyne:polymer@1.0.1')
+	api.use('ecwyne:polymer@1.0.2')
 	api.versionsFrom('METEOR@0.9.0');
 	api.addFiles('voice-elements.js', 'server');
 });
